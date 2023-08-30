@@ -1,0 +1,95 @@
+.header{
+    display: flex;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* background-color:white; */
+    height: 115px;
+    
+    margin-top: 10px;
+    width: 100%;
+}
+.header-sub1{
+    /* background-color:grey; */
+    position: absolute;
+    height:55px ;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+}
+.header-sub1-left{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 2px;
+    width: 900px;
+    column-gap: 10px;
+    
+}
+.header-buttons{
+    display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
+    background-color: transparent;
+    border: none;
+    
+    cursor: pointer;
+
+    height: 60px;
+}
+.header-buttons:hover{
+    border-bottom: 4px solid #005B9E; 
+}
+
+hr.shorts-line {
+    width: 1330px;
+    position: absolute;
+    margin-left: auto;
+    margin-top: -8px;
+    border: 1px solid rgb(255, 255, 255);
+    
+    
+    
+}
+.bmwlogo{
+    width: 50px;
+    padding-right: 20px;
+}
+.header-sub1-right{
+    position: absolute;
+    display: flex;
+    right: 100px;
+    /* background-color: bisque; */
+    width: 130px;
+    justify-content: space-between;
+    align-items: center;  
+  
+}
+.header-sub2{
+    /* background-color: blueviolet; */
+    position: absolute;
+    top: 55px;
+    width: 100%;
+    padding-left: 100px;
+}
+
+.header-right-button{
+    background-color: transparent;
+    margin: 0;
+    height: 62px;
+    border: none;
+    padding-top: 15px;
+    display: flex;
+    cursor: pointer;
+
+}
+.header-right-button:hover{
+    border-bottom: 4px solid #005B9E; 
+}
+.header-right-button-icon{
+    width: 20px;
+}

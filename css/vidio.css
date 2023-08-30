@@ -1,0 +1,91 @@
+/* .vidio-div{
+    margin-top: 0px;
+    max-width: 0px;
+} */
+.section{
+    margin: 0px;
+    position: relative;
+    width: 100%;
+    height: 115vh;
+    display: flex;
+    
+  
+    overflow: hidden;
+ 
+
+}
+.bmw-vidio{
+    margin: 0px;
+    width: 105%;
+    
+   
+    
+}
+.vidio-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    height: 869px;
+    /* background-color: aqua; */
+}
+/* @media(min-aspect-ratio: 16/9){
+    .vidio-container{
+        width: 100%;
+        height: auto;
+    } */
+
+.vidio-bottom{
+    position: absolute;
+    bottom: 170px;
+    left: 100px;
+    line-height: 0%;
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+    height: 60px;
+    
+}
+.vidio-bottom-button-div{
+    position: absolute;
+    top: 140px;
+    /* background-color: aqua; */
+    width: 500px;
+    height: 200px;
+    
+    
+}
+.vidio-bottom-button1,
+.vidio-bottom-button2{
+    width: 200px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    cursor: pointer;
+    
+}
+.vidio-bottom-button1{
+    background-color:rgb(28,105,212) ;
+    font-family: BMWbold;
+    font-size: 16px;
+    color: white;
+    border-color: rgb(28,105,212);
+    border-style: solid;
+    border-radius: 4px;
+    
+}
+.vidio-bottom-button2{
+   background-color: transparent;
+   font-family: BMWbold;
+   font-size: 16px;
+   color: white;
+   border-color: white;
+    border-style: solid;
+    border-radius: 4px;
+    margin-left: 18px;
+}
+.vidio-bottom-button1:hover{
+    background-color: rgb(14, 81, 175);
+    border-color: rgb(14, 81, 175);
+}

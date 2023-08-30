@@ -1,0 +1,84 @@
+@font-face {
+    font-family: BMWregular;
+    src: url(../fonts/BMWTypeNext-Regular.ttf);
+}
+@font-face {
+    font-family: BMWlight;
+    src: url(../fonts/BMWTypeNext-Light.ttf);
+}
+@font-face {
+    font-family: BMWbold;
+    src: url(../fonts/BMWTypeNext-Bold.ttf);
+}
+.vidio-bottom-text1{
+    font-family: BMWbold;
+    font-size: 14px;
+    color: white;
+    margin: 0;
+    letter-spacing: 2.8px;
+}
+.vidio-bottom-text2{
+    font-family: BMWlight;
+    font-size: 64px;
+    color: white;
+    line-height: 0;
+    margin-top: 46px;
+    margin-bottom: 50px;
+    
+    
+    
+}
+.vidio-bottom-text3{
+    font-family: BMWlight;
+    font-size: 24px;
+    color: white;
+    margin: 0;
+    
+}
+.header-buttons{
+    font-family: BMWbold;
+    font-size: 16px;
+    color: white;
+}
+
+.pleasure1{
+    font-family: BMWbold;
+    font-size: 16px;
+    color: white;
+}
+.sheerdriving{
+    font-family: BMWlight;
+    font-size: 16px;
+    color: white;
+}
+.shoppingtools-text,
+.findbmw-text,
+.find-a-new-car-text
+{
+    margin: 0;
+}
+.shoppingtools-text{
+    font-family: BMWbold;
+    color: rgb(66, 65, 65);
+}
+.findbmw-text{
+    font-family: BMWlight;
+    font-size: 45px;
+}
+.shoppingtools-innertext{
+    margin: 0;
+    padding-left: 15px;
+    font-family: BMWlight;
+    font-size: 18px;
+}
+.section2-button-text{
+    font-family: BMWbold;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 15px;
+}
+.forwardism-text{
+    font-family: BMWlight;
+    font-size: 40px;
+    color: white;
+}

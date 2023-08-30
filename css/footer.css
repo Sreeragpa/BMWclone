@@ -1,0 +1,62 @@
+.footer-div{
+    height: 80vh;
+    background-color: rgba(246,246,246,255);
+}
+.footer-top{
+    /* background-color: blue; */
+    height: 61vh;
+}
+.footer-top-list{
+    background-color: rgba(246,246,246,255);
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 60px;
+    padding-left: 70px;
+}
+.footer-bottom{
+    display: grid;
+    grid-template-columns: 65% 1.5fr 1fr 1fr;
+    align-items: center;
+    margin-top: 50px;
+}
+.footer-top-social{
+    margin-top: 12px;
+    margin-left: 44px
+}
+.contact{
+    font-family: BMWlight;
+    font-size: 10px;
+    letter-spacing: 2.8px;
+}
+.find-a-dealer{
+  
+    font-family: BMWbold;
+    font-size: 14px;
+}
+.footer-top-list-column{
+    line-height: 30px;
+}
+.footer-top-social-icons{  
+    width: 400px;
+    /* background-color: black; */
+    margin: 0%;
+}
+.footer-social-icon{
+    width: 30px;
+}
+.footer-bottom{
+    
+    height: 92px;
+    background-color: white;
+}
+.footer-bottom-right-1{
+    font-family: BMWlight;
+    font-size: 12px;
+    padding-left: 40px;
+    
+}
+.footer-bottom-right{
+    font-family: BMWbold;
+    font-size: 12px;
+}

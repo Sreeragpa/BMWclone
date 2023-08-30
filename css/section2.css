@@ -1,0 +1,66 @@
+.section-2{
+    height: 450px;
+    /* background-color: aqua; */
+}
+.shoppingtools{
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: navy; */
+}
+.findbmw{
+    display: grid;
+    
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: navy; */
+}
+.car-config{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: center;
+    /* background-color: grey; */
+   
+    
+}
+.find-a-new-car{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+   
+    
+}
+.book-a-test-drive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.build-your-own{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+}
+.find1,.find2{
+    width: 150px;
+    
+}
+
+.section2-button{
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+   
+
+}
+.section2-button:hover{
+    border-width: 3px;
+    border-style: solid;
+}
