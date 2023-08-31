@@ -44,6 +44,7 @@
 }
 .footer-social-icon{
     width: 30px;
+    cursor: pointer;
 }
 .footer-bottom{
     
@@ -59,4 +60,11 @@
 .footer-bottom-right{
     font-family: BMWbold;
     font-size: 12px;
+}
+.footer-links{
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+}
+.footer-links:hover{
+    color: rgb(0, 0, 0);
 }
